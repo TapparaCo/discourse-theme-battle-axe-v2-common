@@ -2,7 +2,7 @@
 
 Copyright (c) 2019 Tappara.co. Released under the MIT license.
 
-In this repository we host the visual mods we have developed for Discourse.org. See a live demo at https://tappara.co (Finnish language)
+In this repository we host the common visual mods we have developed for Discourse.org. See a live demo at https://tappara.co (Finnish language)
 
 We have sanitized the default view /latest, added minor improvements to /categories and applied a bunch of branding/visual customizations.
 
