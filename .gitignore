@@ -1,0 +1,10 @@
+*/node_modules
+node_modules
+.vscode
+*/yarn-error.log
+.idea
+*.iml
+*/yarn-error.log
+yarn-error.log
+.cache
+.DS_Store
