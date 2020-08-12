@@ -22,3 +22,12 @@
 .user-preferences .pref-mailing-list-mode {
   display: none;
 }
+
+// Header text/lock from gray to white
+.extra-info-wrapper span {
+  color: #fff;
+}
+
+.extra-info-wrapper svg {
+  fill: #fff;
+}
