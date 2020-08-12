@@ -9,9 +9,9 @@
     "precise-commits": "precise-commits"
   },
   "devDependencies": {
-    "husky": "3.0.1",
+    "husky": "4.2.5",
     "precise-commits": "1.0.2",
-    "prettier": "1.18.2"
+    "prettier": "2.0.5"
   },
   "husky": {
     "hooks": {
