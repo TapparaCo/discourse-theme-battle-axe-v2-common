@@ -23,3 +23,8 @@
     display: none;
   }
 }
+
+// Tone down real name under username
+.topic-meta-data .names .full-name {
+  font-weight: normal;
+}
