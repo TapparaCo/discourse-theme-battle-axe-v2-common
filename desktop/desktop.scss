@@ -53,7 +53,12 @@
 }
 
 .topic-list td {
-  padding: 2px 5px;
+  padding: 2px 5px !important;
+}
+
+// Mark read topics with gray title
+.topic-list-item.visited .title {
+  color: var(--primary-medium) !important;
 }
 
 /* Fix for Discourse bug.
