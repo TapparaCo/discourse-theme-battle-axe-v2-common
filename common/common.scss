@@ -1,7 +1,8 @@
 // Header logos to pure white
-.d-header-icons .d-icon {
+.d-header-icons .d-icon,
+.header-sidebar-toggle button .d-icon {
   opacity: 1;
-  color: #fff;
+  color: var(--header_primary);
 }
 
 // Remove ADVERTISEMENT-labeld for DFP, AdSense
