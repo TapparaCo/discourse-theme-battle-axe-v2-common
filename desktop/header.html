@@ -2,9 +2,15 @@
   {{~raw-plugin-outlet name="topic-list-before-columns"}}
 
   {{#if bulkSelectEnabled}}
-    <td class="bulk-select">
-  	<input type="checkbox" class="bulk-select">
-    </td>
+    <th class="bulk-select topic-list-data">
+      {{#if canBulkSelect}}
+        {{#if experimentalTopicBulkActionsEnabled }}
+          {{raw "flat-button" class="bulk-select" icon="tasks" title="topics.bulk.toggle"}}
+        {{else}}
+          {{raw "flat-button" class="bulk-select" icon="list" title="topics.bulk.toggle"}}
+        {{/if}}
+      {{/if}}
+    </th>
   {{/if}}
 
   <td class='main-link clearfix' colspan="1">
