@@ -95,7 +95,7 @@
       {{/if}}
     </th>
   {{/if}}
-  {{raw "topic-list-header-column" order='default' name=listTitle bulkSelectEnabled=bulkSelectEnabled showBulkToggle=toggleInTitle canBulkSelect=canBulkSelect}}
+  {{raw "topic-list-header-column" order='default' name=listTitle bulkSelectEnabled=bulkSelectEnabled showBulkToggle=toggleInTitle canBulkSelect=canBulkSelect canDoBulkActions=canDoBulkActions showTopicsAndRepliesToggle=showTopicsAndRepliesToggle newListSubset=newListSubset newRepliesCount=newRepliesCount newTopicsCount=newTopicsCount experimentalTopicBulkActionsEnabled=experimentalTopicBulkActionsEnabled bulkSelectHelper=bulkSelectHelper }}    {{#unless hideCategory}}
     {{#unless hideCategory}}
     {{raw "topic-list-header-column" sortable=sortable order='category' name='category_title'}}
     {{/unless}}
