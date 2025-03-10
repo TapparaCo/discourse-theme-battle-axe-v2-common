@@ -63,7 +63,12 @@
 }
 
 .topic-list .link-bottom-line {
-  display: none;
+  display: inline-block;
+  padding-left: 8px;
+
+  .badge-category__wrapper {
+    display: none;
+  }
 }
 
 /* Fix for Discourse bug.
